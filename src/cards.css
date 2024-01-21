@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0px;
+    padding: 20px;
+}
+
+/* .card {
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 30%;
+    height: calc(100vh - 50px);
+    background-color: white;
+} */
+
+.card {
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.card h6 {
+    margin:8px;
+    font-size: small;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.card h1 {
+    margin: 8px;
+    text-align: center;
+}
+
+.card hr {
+    opacity: 0.3;
+}
+
+.card p {
+    margin: 20px;
+    font-size: small;
+}
+
+.card > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: xx-small;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card > ul {
+    margin: 8px;
+    padding: 8px;
+}
+
+ul > li {
+    font-size: small;
+    margin: 8px;
+}
+
+.disabled {
+    opacity: 0.2;
+    text-decoration: line-through;
+}
